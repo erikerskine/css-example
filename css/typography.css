@@ -1,0 +1,135 @@
+/*
+ * Typography styling goes in this file.
+ *
+ * This means that all font-family, font-size, font-weight declarations
+ * should be defined here. Any others should go in overrides.css with
+ * a note explaining why.
+ */
+
+
+/* Set a default font size and line height to match our baseline grid. */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/*
+ * Default styling for block-level elements that contain text.
+ * If these elements don't have any additional classes, they will all
+ * look the same.
+ */
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  position: relative;
+  top: 4px;
+}
+
+/*
+ * Paragraphs do have margins, it's not practical to put
+ * <p class="normal-paragraph"> everywhere.
+ */
+p {
+  margin: 18px 0;
+}
+
+/* 
+ * Depending on the baseline, raw text placed on the page might not sit
+ * neatly on the lines. If so, every piece of text needs to sit inside some
+ * block level element that can adjust it's position slightly.
+ *
+ * Use <div class="text">...</div> as the simplest means of doing so.
+ */
+.text {
+  position: relative;
+  top: 4px;
+}
+
+
+/*
+ * Classes are used to make text look different. You should be able to use
+ * any the classes below on any level of heading element (or a plain div)
+ * and the text should look the same.
+ *
+ *     eg  <h1 class="font-large">...</h1>
+ *         <h2 class="font-very-large">...</h2>
+ *
+ * The font-family, font-size and line-height properties should be obtained
+ * from the design. Use "position: relative" and "top" to adjust the text
+ * to fit the baseline.
+ *
+ * The specificity of these selectors means that the default styling
+ * of the block level elements is overridden.
+ */
+
+.font-very-large-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+  line-height: 54px;
+  top: 2px;
+}
+
+.font-large-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  line-height: 45px;
+  position: relative;
+  top: 0;
+}
+
+.font-small-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  line-height: 27px;
+  position: relative;
+  top: 6px;
+}
+
+/* better name? */
+.font-style-a {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  position: relative;
+  top: 7px;
+}
+
+
+.font-large-sans-heading {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 45px;
+  position: relative;
+  top: 0;
+}
+
+.font-large-sans {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 27px;
+  position: relative;
+  top: 4px;
+}
+
+.font-large-sans strong,
+.font-large-sane em {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.font-small {
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+  top: 5px;
+}
+
+/*
+ * More info:
+ *   http://www.danielslaughter.com/2012/03/10/sxsw-2012-css-for-grown-ups-maturing-best-practices/
+ *   http://www.stubbornella.org/content/2011/04/28/our-best-practices-are-killing-us/
+ *
+ */

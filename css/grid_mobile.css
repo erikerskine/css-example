@@ -1,0 +1,23 @@
+.d1,.d2,.d3 { 
+  padding: 0;
+  float: none; 
+  width: 100.0%;
+}
+
+.m0 {display: none;}
+.m_break {clear: both;}
+
+.d_container .pane-title, 
+.t_container .pane-title {
+  margin:  0 11px;
+}
+
+.d_container {
+  margin-left: 20px  !important;
+  margin-right: 20px !important;
+}
+
+.quarter, .third, .half, .twothirds, .threequarters {
+  float: none !important;
+  width: auto  !important;
+}

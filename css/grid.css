@@ -1,0 +1,78 @@
+@import url('grid_mobile.css') only screen and (min-width: 280px) and (max-width: 649px);
+@import url('grid_tablet.css') only screen and (min-width: 650px) and (max-width: 900px);
+@import url('grid_desktop.css') only screen and (min-width: 900px);
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+} 
+
+#header,
+#main,
+#upper-footer,
+#lower-footer,
+#footer-credits {
+  margin: 0 auto;
+}
+
+#toolbar ul {
+  position: static;
+}
+
+img, object, embed, video {
+  max-width: 100%;	
+  display: block;
+} /* Fluid images */
+
+img {
+  border: 0;	
+  display: block;
+  -ms-interpolation-mode: bicubic;
+  margin: 0 auto;
+} /* Improve IE's resizing of images */
+
+.clear {
+  clear: both;
+  height: 0;
+}
+
+/* Panel Pane */
+.panel-pane {
+  position: relative;
+}
+
+.pane-title {
+  margin: 0 22px;
+}
+
+
+  .quarter {
+    float: left;
+    width: 25%;
+  }
+
+  .third {
+    float: left;
+    width: 33.33333%;
+  }
+
+  .half {
+    float: left;
+    width: 50%;
+  }
+
+  .twothirds {
+    float: left;
+    width: 66.66667%;
+  }
+
+  .threequarters {
+    float: left;
+    width: 75%;
+  }
+
+
+
+

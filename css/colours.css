@@ -1,0 +1,72 @@
+
+/* Dark Grey */
+.theme-grey-333 {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-grey-333 .accent-colour {
+  color: #8bc541;
+}
+
+/* Light Grey */
+.theme-grey-e6 {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+}
+
+.theme-grey-e6 .accent-colour {
+  color: #00aeef;
+}
+
+/* Grey f2 */
+.theme-grey-f2 {
+  background-color: #f2f2f2;
+  color: #1a1a1a;
+}
+
+.theme-grey-f2 .accent-colour {
+  color: #00aeef;
+}
+
+/* Grey d3 */
+.theme-grey-d3 {
+  background-color: #d3d3d3;
+  color: #1a1a1a;
+}
+
+/* Latest News Grey */
+.theme-grey-50 {
+  background-color: #505050;
+  color: #fff;
+}
+
+/* White */
+.theme-white {
+  background-color: #fff;
+  color: black;
+}
+
+/* Black */
+.theme-black {
+  background-color: #000;
+  color: white;
+}
+
+/* Green */
+.theme-green {
+  background-color: #8bc541;
+  color: #fff;
+}
+
+/* Twitter Grey*/
+.theme-grey-999 {
+  background-color: #999999;
+  color: #fff;
+}
+
+/* Blue */
+.theme-blue {
+  background-color: #00aeef;
+  color: #fff;
+}
